@@ -1,0 +1,12 @@
+[submodule "larq"]
+	path = larq
+	url = git@github.com:sfalkena/larq.git
+[submodule "zoo"]
+	path = zoo
+	url = git@github.com:sfalkena/zoo.git
+[submodule "compute-engine"]
+	path = compute-engine
+	url = git@github.com:sfalkena/compute-engine.git
+[submodule "zookeeper"]
+	path = zookeeper
+	url = git@github.com:sfalkena/zookeeper.git
