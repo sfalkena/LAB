@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+*.tflite
+/zookeeper-logs
+/visualization/*.html
+/visualization/*.json
+/visualization/*/*.csv
+
 # Distribution / packaging
 .Python
 build/
