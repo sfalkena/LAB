@@ -42,11 +42,10 @@ If you already have these datasets downloaded, please refer to `zoo/larq_zoo/tra
 # Getting started:
 Clone the repository with its submodules:
 
-`git clone ...`
+`git clone --recurse-submodules -j8 git@github.com:sfalkena/LAB.git`
 
 Install dependencies by instantiating an virtual environment (tested with python 3.6.9) and then:
 ``` 
-chmod +x ./install_requirements.sh
 ./install_requirements.sh
 ```
 
@@ -68,7 +67,6 @@ This benchmark tool is based on the [tflite benchmark](https://www.tensorflow.or
 ``` 
 pip install pandas
 pip install altair
-
 ```
 
 After having used the `--enable_op_profiling` option, a folder of csv's can be saved that can be loaded in `visualization/show_op_profile.py`. The result of running the script will be a html file with an interactive chart.
