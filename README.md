@@ -1,5 +1,6 @@
 # LAB
-## This is the official repository for [LAB: Learnable Activation Binarizer for Binary Neural Networks](arxiv_link)<br> (Sieger Falkena, Hadi Jamali-Rad, Jan van Gemert)
+#### This paper is accepted to appear in the proceedings of WACV 2023
+### This is the official repository for [LAB: Learnable Activation Binarizer for Binary Neural Networks](arxiv_link) (Sieger Falkena, Hadi Jamali-Rad, Jan van Gemert)
 
 <!-- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transductive-decoupled-variational-inference/few-shot-image-classification-on-mini-5)](https://paperswithcode.com/sota/few-shot-image-classification-on-mini-5?p=transductive-decoupled-variational-inference) -->
 
@@ -9,6 +10,11 @@ Binary Neural Networks (BNNs) are receiving an upsurge of attention for bringing
 # Pre- and post-binarization of sign vs LAB
 <p align="center">
 <img src="imgs/l1_comparison.png" width="700" >
+</p>
+
+# LAB architecture:
+<p align="center">
+<img src="imgs/lab_arch.png" width="400" >
 </p>
 
 # Results of applying LAB to 4 different architectures:
